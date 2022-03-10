@@ -15,7 +15,11 @@ class CreateEmployeesTable extends Migration
     {
         Schema::create('employees', function (Blueprint $table) {
             $table->id();
+            $table->string('employee_type');
+            $table->date('hiring_date');
+            $table->date('firing_date');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

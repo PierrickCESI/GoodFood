@@ -15,7 +15,10 @@ class CreateTrimmingsTable extends Migration
     {
         Schema::create('trimmings', function (Blueprint $table) {
             $table->id();
+            $table->string('trimming_type');
+            $table->integer('quantity');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

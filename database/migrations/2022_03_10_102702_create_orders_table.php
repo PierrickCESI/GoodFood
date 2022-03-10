@@ -15,7 +15,18 @@ class CreateOrdersTable extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->unsignedBigInteger('discount_id')->unsigned();
+            $table->foreign('discount_id')->references('id')->on('discounts');
+            $table->dateTime('purchase_date');
+            $table->dateTime('delivery_date');
+            $table->boolean('in_progress')->default(false);
+            $table->boolean('is_delivery')->default(false);
+            $table->string('delivery_address');
+            $table->boolean('canceled')->default(false);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

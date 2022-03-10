@@ -15,7 +15,12 @@ class CreateDiscountsTable extends Migration
     {
         Schema::create('discounts', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->double('reduction_value');
+            $table->date('start_date');
+            $table->date('end_date');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

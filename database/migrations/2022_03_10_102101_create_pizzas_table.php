@@ -15,7 +15,9 @@ class CreatePizzasTable extends Migration
     {
         Schema::create('pizzas', function (Blueprint $table) {
             $table->id();
+            $table->string('dough_type');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
