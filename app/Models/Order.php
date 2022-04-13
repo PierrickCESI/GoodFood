@@ -21,6 +21,8 @@ class Order extends Model
         'is_delivery',
         'delivery_address',
         'canceled',
+        'note',
+        'commentary',
     ];
 
     //Relationships
