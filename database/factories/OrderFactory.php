@@ -24,6 +24,8 @@ class OrderFactory extends Factory
             'is_delivery' => $this->faker->boolean,
             'delivery_address' => $this->faker->address,
             'canceled' => $this->faker->boolean,
+            'note' => $this->faker->numberBetween(1,5),
+            'commentary' => $this->faker->paragraph,
         ];
     }
 }

@@ -23,8 +23,10 @@ class CreateOrdersTable extends Migration
             $table->dateTime('delivery_date');
             $table->boolean('in_progress')->default(false);
             $table->boolean('is_delivery')->default(false);
-            $table->string('delivery_address');
+            $table->text('delivery_address');
             $table->boolean('canceled')->default(false);
+            $table->integer('note');
+            $table->text('commentary');
             $table->timestamps();
             $table->softDeletes();
         });
