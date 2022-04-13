@@ -18,4 +18,16 @@ class Menu extends Model
         'name',
         'price',
     ];
+
+    //Relationships
+    public function purchases(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Purchase::class);
+    }
+
+    //Relationships INVERSE
+    public function purchase(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Purchase::class);
+    }
 }

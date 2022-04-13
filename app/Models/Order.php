@@ -22,4 +22,36 @@ class Order extends Model
         'delivery_address',
         'canceled',
     ];
+
+    //Relationships
+    public function purchases(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Purchase::class);
+    }
+
+    public function discounts(): \Illuminate\Database\Eloquent\Relations\HasOne
+    {
+        return $this->hasOne(Discount::class);
+    }
+
+    public function users(): \Illuminate\Database\Eloquent\Relations\HasOne
+    {
+        return $this->hasOne(User::class);
+    }
+
+    //Relationships INVERSE
+    public function purchase(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(Purchase::class);
+    }
+
+    public function discount(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Discount::class);
+    }
+
+    public function user(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
 }

@@ -19,4 +19,10 @@ class Employee extends Model
         'hiring_date',
         'firing_date',
     ];
+
+    //Polymorphic relation
+    public function user(): \Illuminate\Database\Eloquent\Relations\MorphOne
+    {
+        return $this->morphOne(User::class, 'typable');
+    }
 }

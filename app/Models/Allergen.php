@@ -17,4 +17,16 @@ class Allergen extends Model
     protected $fillable = [
         'name',
     ];
+
+    //Relationships
+    public function products(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Product::class);
+    }
+
+    //Relationships INVERSE
+    public function product(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(Product::class);
+    }
 }

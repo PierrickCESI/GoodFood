@@ -29,4 +29,10 @@ class Customer extends Model
     protected $hidden = [
         'credit_card',
     ];
+
+    //Polymorphic relation
+    public function user(): \Illuminate\Database\Eloquent\Relations\MorphOne
+    {
+        return $this->morphOne(User::class, 'typable');
+    }
 }

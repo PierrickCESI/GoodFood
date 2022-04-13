@@ -20,4 +20,16 @@ class Discount extends Model
         'start_date',
         'end_date',
     ];
+
+    //Relationships
+    public function orders(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Order::class);
+    }
+
+    //Relationships INVERSE
+    public function order(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(Order::class);
+    }
 }

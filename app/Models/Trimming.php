@@ -18,4 +18,10 @@ class Trimming extends Model
         'trimming_type',
         'quantity',
     ];
+
+    //Polymorphic relation
+    public function product(): \Illuminate\Database\Eloquent\Relations\MorphOne
+    {
+        return $this->morphOne(Product::class, 'typable');
+    }
 }

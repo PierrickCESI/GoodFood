@@ -17,4 +17,10 @@ class Pizza extends Model
     protected $fillable = [
         'dough_type',
     ];
+
+    //Polymorphic relation
+    public function product(): \Illuminate\Database\Eloquent\Relations\MorphOne
+    {
+        return $this->morphOne(Product::class, 'typable');
+    }
 }
