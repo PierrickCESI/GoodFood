@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->unsignedBigInteger('restaurant_id')->unsigned();
             $table->foreign('restaurant_id')->references('id')->on('restaurants');
             $table->string('name');
+            $table->string('description');
             $table->double('price');
             $table->double('energy_kj');
             $table->double('energy_kcal');

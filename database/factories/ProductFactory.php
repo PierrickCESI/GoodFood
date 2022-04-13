@@ -19,6 +19,7 @@ class ProductFactory extends Factory
         return [
             'restaurant_id' => Restaurant::factory(),
             'name' => $this->faker->name,
+            'description' => $this->faker->paragraph,
             'price' => $this->faker->randomFloat(2, 0.25),
             'energy_kj' => $this->faker->randomFloat(2),
             'energy_kcal' => $this->faker->randomFloat(2),
