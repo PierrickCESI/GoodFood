@@ -26,7 +26,7 @@ class Product extends Model
         'fiber',
         'protein',
         'salt',
-        'image',
+        'picture',
     ];
 
     //Polymorphic relation
