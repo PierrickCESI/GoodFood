@@ -28,7 +28,7 @@ class CreateProductsTable extends Migration
             $table->double('fiber');
             $table->double('protein');
             $table->double('salt');
-            $table->string('image')->default('pictures/No_images_available.png');
+            $table->string('picture')->default('pictures/No_images_available.png');
             $table->morphs('typable');
             $table->timestamps();
             $table->softDeletes();
