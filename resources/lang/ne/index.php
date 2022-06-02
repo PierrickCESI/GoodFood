@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'orderNow' => 'Commmandez maintenant',
-    'delivery' => 'Livraison',
-    'takeaway' => 'A emporter',
-    'promotion' => 'Promotion',
-    'login' => 'Connexion',
+    'orderNow' => 'Bestel nu',
+    'delivery' => 'Levering',
+    'takeaway' => 'Afhaal',
+    'promotion' => 'Promotie',
+    'login' => 'Inloggen',
 
 ];

@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Carte Language Lines
+    | Index Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are used during index for various
