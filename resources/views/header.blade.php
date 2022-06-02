@@ -9,11 +9,11 @@
                 <div class="container-fluid bg-dark">
                     <div class="container-fluid d-flex justify-content-around bg-white mt-2 mb-2 ">
                         <a href="{{route('index')}}"><img src="../../../../Desktop/ECOLE/img/goodfoodlogo1.png"></a>
-                        <a href="{{route('menu')}}"><h3 class="my-auto">Carte</h3></a>
-                        <a href="#"><h3 class="my-auto">Nos formules</h3></a>
-                        <a href="#"><h3 class="my-auto">Nos promos</h3></a>
-                        <a href="{{route('cmd details')}}"><h3 class="my-auto">Pannier</h3></a>
-                        <a href="{{route('login')}}"><h3 class="my-auto">Login</h3></a>
+                        <a href="{{route('menu')}}"><h3 class="my-auto">{{__('header.menu') }}</h3></a>
+                        <a href="#"><h3 class="my-auto">{{__('header.ourFormulas') }}</h3></a>
+                        <a href="#"><h3 class="my-auto">{{__('header.ourPromotions') }}</h3></a>
+                        <a href="{{route('cmd details')}}"><h3 class="my-auto">{{__('header.shoppingCart') }}</h3></a>
+                        <a href="{{route('login')}}"><h3 class="my-auto">{{__('header.login') }}</h3></a>
                     </div>
                 </div>
 

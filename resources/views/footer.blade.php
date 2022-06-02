@@ -9,45 +9,46 @@
                 <div class="container-fluid bg-dark mt-5">
                     <div class="container-fluid d-flex justify-content-around bg-white mt-2">
                         <div class="col-2">
-                            <h5>Nos produits</h5>
-                            <h7><a href="{{route('menu')}}">La carte</a></h7><br>
-                            <h7>Nos pizzas</h7><br>
-                            <h7>Nos recettes</h7>
+                            <h5>{{__('footer.products') }}</h5>
+                            <h7><a href="{{route('menu')}}">{{__('footer.menu') }}</a></h7><br>
+                            <h7>{{__('footer.pizza') }}</h7><br>
+                            <h7>{{__('footer.recipe') }}</h7>
                         </div>
 
                         <div class="col-2">
                             <h5>GoodFood</h5>
-                            <h7>A propos</h7><br>
-                            <h7>Cookies</h7><br>
-                            <h7>Données personnelles</h7><br>
-                            <h7>Newsletter</h7>
+                            <h7>{{__('footer.about') }}</h7><br>
+                            <h7>{{__('footer.cookie') }}</h7><br>
+                            <h7>{{__('footer.personalData') }}</h7><br>
+                            <h7>{{__('footer.newsletter') }}</h7>
                         </div>
 
                         <div class="col-2">
-                            <h5>Nous contacter</h5>
-                            <h7>Service client</h7><br>
-                            <h7>Politique divulgation des données</h7><br>
-                            <h7>Désinscrire de la newsletter</h7>
+                            <h5>{{__('footer.contact') }}</h5>
+                            <h7>{{__('footer.service') }}</h7><br>
+                            <h7>{{__('footer.policy') }}</h7><br>
+                            <h7>{{__('footer.unsubscribe') }}</h7>
                         </div>
 
                         <div class="col-2">
-                            <h5>Conditions des offres</h5>
-                            <h7>Nos promos</h7>
+                            <h5>{{__('footer.offer') }}</h5>
+                            <h7>{{__('footer.promotion') }}</h7>
                         </div>
                     </div>
                     <div class="container-fluid d-flex justify-content-around bg-white">
                         <div class="col-3 mt-5">
-                            <h5>Payez en toutes sécurité avec ...</h5>
+                            <h5>{{__('footer.pay') }}</h5>
                         </div>
                         <div class="col-3 mt-5">
-                            <h5>Suivez-nous...</h5>
+                            <h5>{{__('footer.follow') }}</h5>
                         </div>
                     </div>
                     <div class="container-fluid bg-white mb-2 text-center">
-                        <h5>Mentions légales</h5>
-                        <h5>Conditions générales de ventes</h5>
-                        <h5>Paramètres des cookies</h5>
-                        <h5>Pour votre santé, mangez au moins cinq fruits et légumes par jour <a href="https://www.mangerbouger.fr/l-essentiel/les-recommandations-sur-l-alimentation-l-activite-physique-et-la-sedentarite?xtor=SEC-148-GOO&gclid=CjwKCAjwv-GUBhAzEiwASUMm4n7k2cSyTSOfU_tkqhP7ocznxQmTICl7xvVpj484N-GGu221UasjGxoCMJwQAvD_BwE&gclsrc=aw.ds">www.mangerbouger.fr</a></h5>
+                        <h5>{{__('footer.legal') }}</h5>
+                        <h5>{{__('footer.condition') }}</h5>
+                        <h5>{{__('footer.cookieParameter') }}</h5>
+                        <h5>{{__('footer.eatMove') }}</h5>
+                        
                     </div>
                 </div>
             </div>
