@@ -14,18 +14,18 @@
                 <div class="cards border border-dark" style="width: 18rem;">
                     <div class="card-body">
                         <img class="card-img-top" src="../../../../Desktop/ECOLE/img/Pizza_Margherita_stu_spivack.jpg" alt="Card image cap">
-                        <h5 class="card-title text-center">Nom pizza</h5>
+                        <h5 class="card-title text-center">{{__('carte.pizzaName') }}</h5>
                          <select class="form-control" data-role="select-dropdown">
-                            <option>Taille medium</option>
-                            <option>Taille large</option>
-                            <option>Taille XL</option>
+                            <option>{{__('carte.mediumSize') }}</option>
+                            <option>{{__('carte.largeSize') }}</option>
+                            <option>{{__('carte.XLSize') }}</option>
                         </select>
                         <select class="form-control mt-2" data-role="select-dropdown">
-                            <option>Base crème</option>
-                            <option>Base tomate</option>
+                            <option>{{__('carte.creamBase') }}</option>
+                            <option>{{__('carte.tomatoBase') }}</option>
                         </select>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary">Ajouter</a>
+                            <a href="#" class="btn btn-primary">{{__('carte.add') }}</a>
                         </div>
                     </div>
                 </div>
@@ -33,18 +33,18 @@
                 <div class="cards border border-dark" style="width: 18rem;">
                     <div class="card-body">
                         <img class="card-img-top" src="../../../../Desktop/ECOLE/img/Pizza_Margherita_stu_spivack.jpg" alt="Card image cap">
-                        <h5 class="card-title text-center">Nom pizza</h5>
+                        <h5 class="card-title text-center">{{__('carte.pizzaName') }}</h5>
                          <select class="form-control" data-role="select-dropdown">
-                            <option>Taille medium</option>
-                            <option>Taille large</option>
-                            <option>Taille XL</option>
+                             <option>{{__('carte.mediumSize') }}</option>
+                             <option>{{__('carte.largeSize') }}</option>
+                             <option>{{__('carte.XLSize') }}</option>
                         </select>
                         <select class="form-control mt-2" data-role="select-dropdown">
-                            <option>Base crème</option>
-                            <option>Base tomate</option>
+                            <option>{{__('carte.creamBase') }}</option>
+                            <option>{{__('carte.tomatoBase') }}</option>
                         </select>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary">Ajouter</a>
+                            <a href="#" class="btn btn-primary">{{__('carte.add') }}</a>
                         </div>
                     </div>
                 </div>
@@ -52,18 +52,18 @@
                 <div class="cards border border-dark" style="width: 18rem;">
                     <div class="card-body">
                         <img class="card-img-top" src="../../../../Desktop/ECOLE/img/Pizza_Margherita_stu_spivack.jpg" alt="Card image cap">
-                        <h5 class="card-title text-center">Nom pizza</h5>
+                        <h5 class="card-title text-center">{{__('carte.pizzaName') }}</h5>
                          <select class="form-control" data-role="select-dropdown">
-                            <option>Taille medium</option>
-                            <option>Taille large</option>
-                            <option>Taille XL</option>
+                             <option>{{__('carte.mediumSize') }}</option>
+                             <option>{{__('carte.largeSize') }}</option>
+                             <option>{{__('carte.XLSize') }}</option>
                         </select>
                         <select class="form-control mt-2" data-role="select-dropdown">
-                            <option>Base crème</option>
-                            <option>Base tomate</option>
+                            <option>{{__('carte.creamBase') }}</option>
+                            <option>{{__('carte.tomatoBase') }}</option>
                         </select>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary">Ajouter</a>
+                            <a href="#" class="btn btn-primary">{{__('carte.add') }}</a>
                         </div>
                     </div>
                 </div>
@@ -71,18 +71,18 @@
                 <div class="cards border border-dark" style="width: 18rem;">
                     <div class="card-body">
                         <img class="card-img-top" src="../../../../Desktop/ECOLE/img/Pizza_Margherita_stu_spivack.jpg" alt="Card image cap">
-                        <h5 class="card-title text-center">Nom pizza</h5>
+                        <h5 class="card-title text-center">{{__('carte.pizzaName') }}</h5>
                          <select class="form-control" data-role="select-dropdown">
-                            <option>Taille medium</option>
-                            <option>Taille large</option>
-                            <option>Taille XL</option>
+                             <option>{{__('carte.mediumSize') }}</option>
+                             <option>{{__('carte.largeSize') }}</option>
+                             <option>{{__('carte.XLSize') }}</option>
                         </select>
                         <select class="form-control mt-2" data-role="select-dropdown">
-                            <option>Base crème</option>
-                            <option>Base tomate</option>
+                            <option>{{__('carte.creamBase') }}</option>
+                            <option>{{__('carte.tomatoBase') }}</option>
                         </select>
                         <div class="text-right mt-2">
-                            <a href="#" class="btn btn-primary">Ajouter</a>
+                            <a href="#" class="btn btn-primary">{{__('carte.add') }}</a>
                         </div>
                     </div>
                 </div>
@@ -92,13 +92,13 @@
                 <nav class="mt-5" aria-label="Something">
                    <ul class="pagination justify-content-center">
                       <li class="page-item disabled">
-                         <a class="page-link" href="#" tabindex="-1">Previous</a>
+                         <a class="page-link" href="#" tabindex="-1">{{__('carte.previous') }}</a>
                       </li>
                       <li class="page-item"><a class="page-link" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#">2</a></li>
                       <li class="page-item"><a class="page-link" href="#">3</a></li>
                       <li class="page-item">
-                         <a class="page-link" href="#">Next</a>
+                         <a class="page-link" href="#">{{__('carte.next') }}</a>
                       </li>
                    </ul>
                 </nav>
