@@ -12,10 +12,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    @include('header')
 </head>
 
 <body>
+@include('header')
     <div class="row">
         <div class="container-fluid bg-dark text-white text-center mb-5">
             <h1>Détail de la commande</h1>
