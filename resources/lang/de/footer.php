@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Carte Language Lines
+    | Footer Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are used during footer for various
