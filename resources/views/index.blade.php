@@ -4,6 +4,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        @include('header')
     </head>
     <body>
         <h2 class="text-center mt-5">{{__('index.orderNow') }}</h2>
@@ -15,7 +16,7 @@
                       <h5 class="card-title">{{__('index.delivery') }}</h5>
                       <!--<img class="card-img-top" src="..." alt="Card image cap">-->
                       <div class="text-right">
-                        <a href="#" class="btn btn-primary rounded-circle">Go</a>
+                        <a href="{{route('menu')}}" class="btn btn-primary rounded-circle">Go</a>
                       </div>
                     </div>
                 </div>
@@ -24,7 +25,7 @@
                       <h5 class="card-title">{{__('index.takeaway') }}</h5>
                       <!--<img class="card-img-top" src="..." alt="Card image cap">-->
                       <div class="text-right">
-                        <a href="#" class="btn btn-primary rounded-circle">Go</a>
+                        <a href="{{route('menu')}}" class="btn btn-primary rounded-circle">Go</a>
                       </div>
                     </div>
                 </div>
@@ -70,4 +71,7 @@
             </div>
         </div>
     </body>
+<footer>
+    @include('footer')
+</footer>
 </html>

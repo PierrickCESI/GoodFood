@@ -10,7 +10,7 @@
                     <div class="container-fluid d-flex justify-content-around bg-white mt-2">
                         <div class="col-2">
                             <h5>{{__('footer.products') }}</h5>
-                            <h7>{{__('footer.menu') }}</h7><br>
+                            <h7><a href="{{route('menu')}}">{{__('footer.menu') }}</a></h7><br>
                             <h7>{{__('footer.pizza') }}</h7><br>
                             <h7>{{__('footer.recipe') }}</h7>
                         </div>
@@ -48,6 +48,7 @@
                         <h5>{{__('footer.condition') }}</h5>
                         <h5>{{__('footer.cookieParameter') }}</h5>
                         <h5>{{__('footer.eatMove') }}</h5>
+                        
                     </div>
                 </div>
             </div>
