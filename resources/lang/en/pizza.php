@@ -16,6 +16,18 @@ return [
     'pizza' => 'The pizza',
     'order' => 'Order',
     'value' => 'Nutritional values per 100g',
+    'mediumSize' => 'Medium size',
+    'largeSize' => 'Large size',
+    'XLSize' => 'XL size',
+    'energy_kj' => 'Energy (kJ)',
+    'energy_kcal' => 'Energy (kCal)',
+    'fat' => 'Fats',
+    'saturated_fatty_acids' => 'Including saturated fatty acids',
+    'carbs' => 'Carbohydrates',
+    'sugar' => 'Including sugar',
+    'fiber' => 'Fibers',
+    'protein' => 'Protein',
+    'salt' => 'Salt',
     'allergens' => 'Allergens',
 
 ];
