@@ -7,20 +7,21 @@ return [
     | Carte Language Lines
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used during carte for various
+    | The following language lines are used during menu for various
     | messages that we need to display to the user. You are free to modify
     | these language lines according to your application's requirements.
     |
     */
 
-    'pizzaName' => 'Naam van de pizza',
-    'mediumSize' => 'Maat medium',
-    'largeSize' => 'Maat Groot',
-    'XLSize' => 'Maat XL',
-    'creamBase' => 'Crème basis',
-    'tomatoBase' => 'Tomaten basis',
-    'add' => 'Toevoegen',
-    'previous' => 'Vorige',
-    'next' => 'Volgende',
+    'menu' => 'Le menu',
+    'pizzaName' => 'Nom de la pizza',
+    'mediumSize' => 'Taille medium',
+    'largeSize' => 'Taille large',
+    'XLSize' => 'Taille XL',
+    'creamBase' => 'Base crème',
+    'tomatoBase' => 'Base tomate',
+    'add' => 'Ajouter',
+    'previous' => 'Précédent',
+    'next' => 'Suivant',
 
 ];

@@ -13,14 +13,15 @@ return [
     |
     */
 
-    'pizzaName' => 'Nom de la pizza',
-    'mediumSize' => 'Taille medium',
-    'largeSize' => 'Taille large',
-    'XLSize' => 'Taille XL',
-    'creamBase' => 'Base crème',
-    'tomatoBase' => 'Base tomate',
-    'add' => 'Ajouter',
-    'previous' => 'Précédent',
-    'next' => 'Suivant',
+    'menu' => 'Das Menü',
+    'pizzaName' => 'Name der Pizza',
+    'mediumSize' => 'Größe Mittlere',
+    'largeSize' => 'Großes Format',
+    'XLSize' => 'Größe XL',
+    'creamBase' => 'Creme-basis',
+    'tomatoBase' => 'Tomata-Basis',
+    'add' => 'hinzufügen',
+    'previous' => 'Vorherige',
+    'next' => 'Weiter',
 
 ];
