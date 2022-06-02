@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Carte Language Lines
+    | Footer Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are used during footer for various
@@ -14,24 +14,24 @@ return [
     */
 
     'products' => 'Our products',
-    'menu' => 'La carte',
-    'pizza' => 'The map',
+    'menu' => 'Menu',
+    'pizza' => 'Cart',
     'recipe' => 'Our recipes',
     'about' => 'About us',
     'cookie' => 'Cookies',
     'personalData' => 'Personal data',
     'newsletter' => 'Newsletter',
     'contact' => 'Contact us',
-    'service' => 'Service client',
-    'policy' => 'Politique divulgation des données',
-    'unsubscribe' => 'Désinscrire de la newsletter',
-    'offer' => 'Conditions des offres',
-    'promotion' => 'Nos promos',
-    'pay' => 'Payez en toutes sécurité avec ...',
-    'follow' => 'Suivez-nous...',
-    'legal' => 'Mentions légales',
-    'condition' => 'Conditions générales de ventes',
-    'cookieParameter' => 'Paramètres des cookies',
-    'eatMove' => 'Pour votre santé, mangez au moins cinq fruits et légumes par jour www.mangerbouger.fr',
+    'service' => 'Customer service',
+    'policy' => 'Data disclosure policy',
+    'unsubscribe' => 'Unsubscribe from the newsletter',
+    'offer' => 'Conditions of the offers',
+    'promotion' => 'Our promotions',
+    'pay' => 'Pay safely with ...',
+    'follow' => 'Follow us...',
+    'legal' => 'Legal information',
+    'condition' => 'General terms and conditions of sale',
+    'cookieParameter' => 'Cookie settings',
+    'eatMove' => 'For your health, eat at least five fruits and vegetables a day www.mangerbouger.fr',
 
 ];
