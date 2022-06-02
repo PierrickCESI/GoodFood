@@ -18,5 +18,10 @@ return [
     'ourPromotions' => 'Our promotions',
     'shoppingCart' => 'Shopping cart',
     'login' => 'Login',
+    'formula' => 'Formula',
+    'drink' => 'Drink',
+    'dessert' => 'Dessert',
+    'close' => 'Close',
+    'takeIt' => 'Take it',
 
 ];

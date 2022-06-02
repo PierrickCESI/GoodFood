@@ -18,5 +18,10 @@ return [
     'ourPromotions' => 'Nos promos',
     'shoppingCart' => 'Panier',
     'login' => 'Connexion',
+    'formula' => 'Formule',
+    'drink' => 'Boisson',
+    'dessert' => 'Dessert',
+    'close' => 'Fermer',
+    'takeIt' => 'En profiter',
 
 ];
