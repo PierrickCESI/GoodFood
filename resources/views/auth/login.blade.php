@@ -12,7 +12,7 @@
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
-
+        <div>{{__('login.notRegistered') }}<a href="{{route('register') }}">{{__('login.createAccount')}}</a> </div>
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
