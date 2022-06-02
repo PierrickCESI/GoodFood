@@ -19,14 +19,14 @@
 @include('header')
     <div class="row">
         <div class="container-fluid bg-dark text-white text-center mb-5">
-            <h1>Détail de la commande</h1>
+            <h1>{{__('cmd details.orderDetails') }}</h1>
         </div>
         <div class="container align-items-center">
-            <h2>Votre commande : </h2>
+            <h2>{{__('cmd details.yourOrder') }} : </h2>
             <div class="text-center" style="border: solid 1px;">
-                <h2>Formule du moment / Formule choisie</h2>
+                <h2>{{__('cmd details.chosenFormula') }}</h2>
             </div>
-            <h2 class="text-center">Descriptif : </h2>
+            <h2 class="text-center">{{__('cmd details.description') }} : </h2>
             <div class="row">
                 <h2>Pizza : </h2>
                 <hr class="w-100">
@@ -34,8 +34,8 @@
                     <div class="col-4">
                         <h3>Reine : </h3>
                         <p>Fromage, jambon, champignons</p>
-                        <button type="button" class="btn btn-info">Modifier</button>
-                        <button type="button" class="btn btn-danger">Supprimer</button>
+                        <button type="button" class="btn btn-info">{{__('cmd details.modify') }}</button>
+                        <button type="button" class="btn btn-danger">{{__('cmd details.delete') }}</button>
                     </div>
                     <div class="col-4">
                         <select>
@@ -54,8 +54,8 @@
                     <div class="col-4">
                         <h3>Chorizo : </h3>
                         <p>Fromage, chorizo, champignons</p>
-                        <button type="btn" class="btn btn-info">Modifier</button>
-                        <button type="btn" class="btn btn-danger">Supprimer</button>
+                        <button type="btn" class="btn btn-info">{{__('cmd details.modify') }}</button>
+                        <button type="btn" class="btn btn-danger">{{__('cmd details.delete') }}</button>
                     </div>
                     <div class="col-4">
                         <select>
@@ -73,13 +73,13 @@
                     <div class="col-9">
                     </div>
                     <div class="col-3">
-                        <b>Total : 24 €</b>
+                        <b>{{__('cmd details.total') }} : 24 €</b>
                     </div>
                 </div>
                 <hr class="w-100">
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-info">Payez</button>
+                <button type="button" class="btn btn-info">{{__('cmd details.pay') }}</button>
             </div>
         </div>
     </div>
