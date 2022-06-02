@@ -30,7 +30,7 @@
                 <a href="{{route('cmd details')}}" class="btn btn-primary"><h3>{{__('pizza.order') }}</h3></a>
             </div>
 
-            <div class="containe-fluid mt-5">
+            <div class="container-fluid mt-5">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                       <div class="card-header" id="headingOne">
@@ -41,9 +41,54 @@
                         </h2>
                       </div>
 
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th><select class="form-select" aria-label="Default select example">
+                                            <option>{{__('pizza.mediumSize') }}</option>
+                                            <option>{{__('pizza.largeSize') }}</option>
+                                            <option>{{__('pizza.XLSize') }}</option>
+                                        </select></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>{{__('pizza.energy_kj') }}</td>
+                                    <td>kJ</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.energy_kcal') }}</td>
+                                    <td>kCal</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.fat') }}</td>
+                                    <td>g</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.saturated_fatty_acids') }}</td>
+                                    <td>g</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.carbs') }}</td>
+                                    <td>g</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.fiber') }}</td>
+                                    <td>g</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.protein') }}</td>
+                                    <td>g</td>
+                                </tr>
+                                <tr>
+                                    <td>{{__('pizza.salt') }}</td>
+                                    <td>g</td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                       </div>
                     </div>

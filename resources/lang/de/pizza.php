@@ -16,6 +16,18 @@ return [
     'pizza' => 'Die Pizza',
     'order' => 'Bestellen',
     'value' => 'Nährwertangaben pro 100g',
+    'mediumSize' => 'Größe Mittlere',
+    'largeSize' => 'Großes Format',
+    'XLSize' => 'Größe XL',
+    'energy_kj' => 'Energie (kJ)',
+    'energy_kcal' => 'Energie (kCal)',
+    'fat' => 'Fette',
+    'saturated_fatty_acids' => 'Davon gesättigte Fettsäuren',
+    'carbs' => 'Kohlenhydrate',
+    'sugar' => 'Davon Zucker',
+    'fiber' => 'Fasern',
+    'protein' => 'Proteine',
+    'salt' => 'Salz',
     'allergens' => 'Allergene',
 
 ];

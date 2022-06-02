@@ -16,6 +16,18 @@ return [
     'pizza' => 'La pizza',
     'order' => 'Commander',
     'value' => 'Valeurs nutritionelles pour 100g',
+    'mediumSize' => 'Taille medium',
+    'largeSize' => 'Taille large',
+    'XLSize' => 'Taille XL',
+    'energy_kj' => 'Energie (kJ)',
+    'energy_kcal' => 'Energie (kCal)',
+    'fat' => 'Matières grasses',
+    'saturated_fatty_acids' => 'Dont acides gras saturés',
+    'carbs' => 'Glucides',
+    'sugar' => 'Dont sucre',
+    'fiber' => 'Fibres',
+    'protein' => 'Protéines',
+    'salt' => 'Sel',
     'allergens' => 'Allergènes',
 
 ];
