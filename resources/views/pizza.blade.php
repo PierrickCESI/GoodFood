@@ -10,7 +10,7 @@
     @include('header')
         <div class="row">
             <div class="container-fluid bg-dark text-white text-center mb-5">
-                <h1>La carte</h1>
+                <h1>{{__('pizza.pizza') }}</h1>
             </div>
 
             <div class="container-fluid d-flex">
@@ -19,9 +19,7 @@
                 </div>
                 <div class="col-6">
                     <p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille aliud vellet, rei publicae consulere oporteret?
-
                         Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille aliud vellet, rei publicae consulere oporteret?
-
                         Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.</p>
 
                 </div>
@@ -29,7 +27,7 @@
             </div>
 
             <div class="container-fluid text-center mt-5">
-                <a href="{{route('cmd details')}}" class="btn btn-primary"><h3>Commander</h3></a>
+                <a href="{{route('cmd details')}}" class="btn btn-primary"><h3>{{__('pizza.order') }}</h3></a>
             </div>
 
             <div class="containe-fluid mt-5">
@@ -38,7 +36,7 @@
                       <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
                           <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Valeurs nutritionelles pour 100g
+                            {{__('pizza.value')}}
                           </button>
                         </h2>
                       </div>
@@ -53,7 +51,7 @@
                       <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
                           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Allergènes
+                              {{__('pizza.allergens') }}
                           </button>
                         </h2>
                       </div>
