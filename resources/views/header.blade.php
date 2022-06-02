@@ -9,11 +9,11 @@
                 <div class="container-fluid bg-dark">
                     <div class="container-fluid d-flex justify-content-around bg-white mt-2 mb-2 ">
                         <img src="../../../../Desktop/ECOLE/img/goodfoodlogo1.png">
-                        <h3 class="my-auto">Carte</h3>
-                        <h3 class="my-auto">Nos formules</h3>
-                        <h3 class="my-auto">Nos promos</h3>
-                        <h3 class="my-auto">Pannier</h3>
-                        <h3 class="my-auto">Login</h3>
+                        <a href="{{route('menu')}}"><h3 class="my-auto">Carte</h3></a>
+                        <a href="#"><h3 class="my-auto">Nos formules</h3></a>
+                        <a href="#"><h3 class="my-auto">Nos promos</h3></a>
+                        <a href="{{route('cmd details')}}"><h3 class="my-auto">Pannier</h3></a>
+                        <a href="{{route('login')}}"><h3 class="my-auto">Login</h3></a>
                     </div>
                 </div>
 

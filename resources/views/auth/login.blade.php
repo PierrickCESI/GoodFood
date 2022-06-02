@@ -1,3 +1,6 @@
+<header>
+    @include('header')
+</header>
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -52,3 +55,6 @@
         </form>
     </x-auth-card>
 </x-guest-layout>
+<footer>
+    @include('footer')
+</footer>
