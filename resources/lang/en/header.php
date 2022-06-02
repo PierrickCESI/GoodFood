@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'menu' => 'menu',
+    'menu' => 'Menu',
     'ourFormulas' => 'Our formulas',
     'ourPromotions' => 'Our promotions',
     'shoppingCart' => 'Shopping cart',
