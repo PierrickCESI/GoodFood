@@ -6,13 +6,13 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h2 class="text-center mt-5">Commmandez maintenant</h2>
+        <h2 class="text-center mt-5">{{__('index.orderNow') }}</h2>
 
         <div class="row">
             <div class="container d-flex justify-content-around mt-5">
                 <div class="card bg-success text-white" style="width: 18rem;">
                     <div class="card-body ">
-                      <h5 class="card-title">Livraison</h5>
+                      <h5 class="card-title">{{__('index.delivery') }}</h5>
                       <!--<img class="card-img-top" src="..." alt="Card image cap">-->
                       <div class="text-right">
                         <a href="#" class="btn btn-primary rounded-circle">Go</a>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="card bg-danger text-white" style="width: 18rem;">
                     <div class="card-body">
-                      <h5 class="card-title">A emporter</h5>
+                      <h5 class="card-title">{{__('index.takeaway') }}</h5>
                       <!--<img class="card-img-top" src="..." alt="Card image cap">-->
                       <div class="text-right">
                         <a href="#" class="btn btn-primary rounded-circle">Go</a>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="container mt-5">
-                <div class="">Promotion</div>
+                <div class="">{{__('index.promotion') }}</div>
                 <div id="demo" class="carousel slide" data-ride="carousel">
                     <ul class="carousel-indicators">
                       <li data-target="#demo" data-slide-to="0" class="active"></li>
