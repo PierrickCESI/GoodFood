@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="container-fluid bg-dark">
                     <div class="container-fluid d-flex justify-content-around bg-white mt-2 mb-2 ">
-                        <a href="{{route('index')}}"><img src="../../../../Desktop/ECOLE/img/goodfoodlogo1.png"></a>
+                        <a href="{{route('index')}}"><img src="/img/logo.png" style="width: 47px; height: 57px;"></a>
                         <a href="{{route('menu')}}"><h3 class="my-auto">{{__('header.menu') }}</h3></a>
                         <a href="#"><h3 class="my-auto">{{__('header.ourFormulas') }}</h3></a>
                         <a href="#"><h3 class="my-auto">{{__('header.ourPromotions') }}</h3></a>
