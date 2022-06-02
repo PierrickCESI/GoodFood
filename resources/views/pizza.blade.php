@@ -4,9 +4,10 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        @include('header')
+
     </head>
     <body>
+    @include('header')
         <div class="row">
             <div class="container-fluid bg-dark text-white text-center mb-5">
                 <h1>{{__('pizza.pizza') }}</h1>
@@ -14,7 +15,7 @@
 
             <div class="container-fluid d-flex">
                 <div class="col-4">
-                    <img src="../../../../Desktop/ECOLE/img/Pizza_Margherita_stu_spivack.jpg" style="width: 38rem;">
+                    <img src="/img/pizza_marguerita.jpg" class="h-200 w-100 " style="width: 38rem;">
                 </div>
                 <div class="col-6">
                     <p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille aliud vellet, rei publicae consulere oporteret?
@@ -26,7 +27,7 @@
             </div>
 
             <div class="container-fluid text-center mt-5">
-                <a href="#" class="btn btn-primary"><h3>{{__('pizza.order') }}</h3></a>
+                <a href="{{route('cmd details')}}" class="btn btn-primary"><h3>{{__('pizza.order') }}</h3></a>
             </div>
 
             <div class="containe-fluid mt-5">
