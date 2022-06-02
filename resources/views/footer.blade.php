@@ -10,7 +10,7 @@
                     <div class="container-fluid d-flex justify-content-around bg-white mt-2">
                         <div class="col-2">
                             <h5>Nos produits</h5>
-                            <h7>La carte</h7><br>
+                            <h7><a href="{{route('menu')}}">La carte</a></h7><br>
                             <h7>Nos pizzas</h7><br>
                             <h7>Nos recettes</h7>
                         </div>
@@ -47,7 +47,7 @@
                         <h5>Mentions légales</h5>
                         <h5>Conditions générales de ventes</h5>
                         <h5>Paramètres des cookies</h5>
-                        <h5>Pour votre santé, mangez au moins cinq fruits et légumes par jour www.mangerbouger.fr</h5>
+                        <h5>Pour votre santé, mangez au moins cinq fruits et légumes par jour <a href="https://www.mangerbouger.fr/l-essentiel/les-recommandations-sur-l-alimentation-l-activite-physique-et-la-sedentarite?xtor=SEC-148-GOO&gclid=CjwKCAjwv-GUBhAzEiwASUMm4n7k2cSyTSOfU_tkqhP7ocznxQmTICl7xvVpj484N-GGu221UasjGxoCMJwQAvD_BwE&gclsrc=aw.ds">www.mangerbouger.fr</a></h5>
                     </div>
                 </div>
             </div>
