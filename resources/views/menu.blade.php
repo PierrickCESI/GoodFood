@@ -8,11 +8,10 @@
     </head>
     <body>
     @include('header')
-        <div class="row">
-            <div class="container-fluid bg-dark text-white text-center mb-5">
+            <div class="container-fluid text-dark text-center mb-5 mt-3">
                 <h1>{{__('menu.menu') }}</h1>
             </div>
-            <div class="container-fluid d-flex justify-content-around">
+            <div class="container-fluid d-flex justify-content-around mb-5">
                 <div class="cards border border-dark" style="width: 18rem;">
                     <div class="card-body">
                         <img class="card-img-top" src="/img/pizza_marguerita.jpg" alt="Margueritha">
@@ -90,6 +89,89 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container-fluid d-flex justify-content-around">
+                <div class="cards border border-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="/img/pizza_marguerita.jpg" alt="Margueritha">
+                        <h5 class="card-title text-center"><a href="{{route('pizza')}}"> {{__('menu.pizzaName') }} </a></h5>
+                        <select class="form-control" data-role="select-dropdown">
+                            <option>{{__('menu.mediumSize') }}</option>
+                            <option>{{__('menu.largeSize') }}</option>
+                            <option>{{__('menu.XLSize') }}</option>
+                        </select>
+                        <select class="form-control mt-2" data-role="select-dropdown">
+                            <option>{{__('menu.creamBase') }}</option>
+                            <option>{{__('menu.tomatoBase') }}</option>
+                        </select>
+                        <div class="text-right mt-2">
+                            <a href="#" class="btn btn-primary">{{__('menu.add') }}</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards border border-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="/img/pizza-reine.jpg" alt="Reine">
+                        <h5 class="card-title text-center"><a href="#">{{__('menu.pizzaName') }}</a></h5>
+
+                        <select class="form-control" data-role="select-dropdown">
+                            <option>{{__('menu.mediumSize') }}</option>
+                            <option>{{__('menu.largeSize') }}</option>
+                            <option>{{__('menu.XLSize') }}</option>
+                        </select>
+                        <select class="form-control mt-2" data-role="select-dropdown">
+                            <option>{{__('menu.creamBase') }}</option>
+                            <option>{{__('menu.tomatoBase') }}</option>
+                        </select>
+                        <div class="text-right mt-2">
+                            <a href="#" class="btn btn-primary">{{__('menu.add') }}</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards border border-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="/img/pizza-chorizo.jpg" alt="Chorizo">
+                        <h5 class="card-title text-center"><a href="#">{{__('menu.pizzaName') }}</a></h5>
+                        <select class="form-control" data-role="select-dropdown">
+                            <option>{{__('menu.mediumSize') }}</option>
+                            <option>{{__('menu.largeSize') }}</option>
+                            <option>{{__('menu.XLSize') }}</option>
+                        </select>
+                        <select class="form-control mt-2" data-role="select-dropdown">
+                            <option>{{__('menu.creamBase') }}</option>
+                            <option>{{__('menu.tomatoBase') }}</option>
+                        </select>
+                        <div class="text-right mt-2">
+                            <a href="#" class="btn btn-primary">{{__('menu.add') }}</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards border border-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="/img/pizza-4-fromages.jpg" alt="4 Fromages" style="">
+                        <h5 class="card-title text-center"><a href="#">{{__('menu.pizzaName') }}</a></h5>
+                        <select class="form-control" data-role="select-dropdown">
+                            <option>{{__('menu.mediumSize') }}</option>
+                            <option>{{__('menu.largeSize') }}</option>
+                            <option>{{__('menu.XLSize') }}</option>
+                        </select>
+                        <select class="form-control mt-2" data-role="select-dropdown">
+                            <option>{{__('menu.creamBase') }}</option>
+                            <option>{{__('menu.tomatoBase') }}</option>
+                        </select>
+                        <div class="text-right mt-2">
+                            <a href="#" class="btn btn-primary">{{__('menu.add') }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+            </div>
             <div class="container">
 
                 <nav class="mt-5" aria-label="Something">
@@ -106,7 +188,6 @@
                    </ul>
                 </nav>
             </div>
-        </div>
 
     </body>
 <footer>
