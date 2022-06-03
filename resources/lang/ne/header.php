@@ -18,5 +18,7 @@ return [
     'ourPromotions' => 'Onze promoties',
     'shoppingCart' => 'Winkelwagen',
     'login' => 'Inloggen',
+    'register' => 'registreren',
+    'logout' => 'uitloggen',
 
 ];

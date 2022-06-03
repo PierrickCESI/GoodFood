@@ -18,5 +18,7 @@ return [
     'ourPromotions' => 'Unsere Werbeaktionen',
     'shoppingCart' => 'Einkaufswagen',
     'login' => 'Anmeldung',
+    'register' => 'registrieren',
+    'logout' => 'Abmeldung',
 
 ];

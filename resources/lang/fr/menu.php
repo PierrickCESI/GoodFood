@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'menu' => 'Le menu',
+    'menu' => 'Menu',
     'pizzaName' => 'Nom de la pizza',
     'mediumSize' => 'Taille medium',
     'largeSize' => 'Taille large',

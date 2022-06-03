@@ -18,6 +18,8 @@ return [
     'ourPromotions' => 'Our promotions',
     'shoppingCart' => 'Shopping cart',
     'login' => 'Login',
+    'register' => 'Register',
+    'logout' => 'Logout',
     'formula' => 'Formula',
     'drink' => 'Drink',
     'dessert' => 'Dessert',

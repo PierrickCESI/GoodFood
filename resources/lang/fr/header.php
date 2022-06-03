@@ -18,6 +18,8 @@ return [
     'ourPromotions' => 'Nos promos',
     'shoppingCart' => 'Panier',
     'login' => 'Connexion',
+    'register' => 'Enregistrement',
+    'logout' => 'Déconnexion',
     'formula' => 'Formule',
     'drink' => 'Boisson',
     'dessert' => 'Dessert',
