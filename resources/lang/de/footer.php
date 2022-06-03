@@ -32,6 +32,7 @@ return [
     'legal' => 'Rechtliche Informationen',
     'condition' => 'Allgemeine Verkaufsbedingungen',
     'cookieParameter' => 'Cookie-Einstellungen',
-    'eatMove' => 'Essen Sie für Ihre Gesundheit mindestens fünf Früchte und Gemüse pro Tag www.mangerbouger.fr',
+    'eatMove' => 'Essen Sie für Ihre Gesundheit mindestens fünf Früchte und Gemüse pro Tag ',
+    'site' => 'www.mangerbouger.fr'
 
 ];

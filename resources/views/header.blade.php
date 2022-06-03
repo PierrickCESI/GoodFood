@@ -9,6 +9,7 @@
                         <a href="{{route('login')}}"><h3 class="my-auto nav-link text-decoration-none text-secondary">{{__('header.login') }}</h3></a>
                     </div>
                 </div>
+            <title>GoodFood</title>
         </header>
 
 

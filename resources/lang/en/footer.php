@@ -32,6 +32,7 @@ return [
     'legal' => 'Legal information',
     'condition' => 'General terms and conditions of sale',
     'cookieParameter' => 'Cookie settings',
-    'eatMove' => 'For your health, eat at least five fruits and vegetables a day www.mangerbouger.fr',
+    'eatMove' => 'For your health, eat at least five fruits and vegetables a day ',
+    'site' => 'www.mangerbouger.fr'
 
 ];

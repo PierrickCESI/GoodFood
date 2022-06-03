@@ -1,4 +1,3 @@
-
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -10,6 +9,8 @@
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+        {{__('login.notRegistered') }} <a href="{{route('register')}}">{{__('login.createAccount') }}</a>
 
         <form method="POST" action="{{ route('login') }}">
             @csrf

@@ -32,6 +32,7 @@ return [
     'legal' => 'Mentions légales',
     'condition' => 'Conditions générales de ventes',
     'cookieParameter' => 'Paramètres des cookies',
-    'eatMove' => 'Pour votre santé, mangez au moins cinq fruits et légumes par jour www.mangerbouger.fr',
+    'eatMove' => 'Pour votre santé, mangez au moins cinq fruits et légumes par jour ',
+    'site' => 'www.mangerbouger.fr'
 
 ];

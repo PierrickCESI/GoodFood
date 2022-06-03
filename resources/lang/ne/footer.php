@@ -32,6 +32,7 @@ return [
     'legal' => 'Wettelijke informatie',
     'condition' => 'Algemene verkoopvoorwaarden',
     'cookieParameter' => 'Cookie-instellingen',
-    'eatMove' => 'Eet voor uw gezondheid minstens vijf stuks fruit en groenten per dag www.mangerbouger.fr',
+    'eatMove' => 'Eet voor uw gezondheid minstens vijf stuks fruit en groenten per dag ',
+    'site' => 'www.mangerbouger.fr'
 
 ];
