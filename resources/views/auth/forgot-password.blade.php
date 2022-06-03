@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <img src="/img/logo.png" style="width:92px; height: 108px;"/>
+            <a href="{{ route('index') }}"><img src="/img/logo.png" style="width:92px; height: 108px;"/></a>
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
@@ -29,7 +29,7 @@
 
 
                 <div class="flex items-center justify-end mt-4">
-                        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('register') }}">
+                        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                             {{ __('return') }}
                         </a>
                     <div class="col-4"></div>
@@ -38,7 +38,7 @@
                     </x-button>
                 </div>
 
-
+            </div>
         </form>
     </x-auth-card>
 </x-guest-layout>
