@@ -54,18 +54,6 @@
                           <h3>Margueritha</h3>
                         </div>
                       </div>
-                      <div class="carousel-item">
-                        <img src="/img/pizza-reine.jpg" alt="Reine" width="1100" height="500">
-                        <div class="carousel-caption">
-                          <h3>Reine</h3>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="/img/pizza-chorizo.jpg" alt="Chorizo" width="1100" height="500">
-                        <div class="carousel-caption">
-                          <h3>Chorizo</h3>
-                        </div>
-                      </div>
                     </div>
                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
                       <span class="carousel-control-prev-icon"></span>
